@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700&family=Inter:wght@100;300;400;600;700&family=Poppins:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(25,53,123,1) 0%, rgba(43,137,225,1) 76%, rgba(68,160,240,1) 100%) no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: #f2f2f2;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+span{
+    font-size: 1rem;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#display{
+    width: 200px;
+    height: 100px;
+    background-color: #173479;
+    color: #f2f2f2;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: end;
+    padding: 1rem;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.buttons{
+    padding: 1rem;
+    background-color: #f2f2f2;
+    margin-top: -20px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.fourth{
+    margin-bottom: 0;
+}
+
+.button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #f2f2f2;
+    background-color: #173479c7;
+    border: none;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #173479;
+    color: #fff;
+    transition: .2s;
+}
+
+.button-clear{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 300px;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    border: transparent;
+    color: #173479;
+    font-weight: bolder;
+}
+
+.equal {
+    background-color: #173479;
+}
+
+.equal:hover{
+    background-color: blue;
+    transition: .2s;
+}
